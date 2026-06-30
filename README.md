@@ -1,47 +1,49 @@
-# Calculator CLI App
+# To-Do List CLI Application
 
 ## Description
-This is a simple Command Line Calculator built using Python. It performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
+A simple command-line To-Do List application built using Python. It allows users to add, view, complete, and delete tasks.
 
 ## Features
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Handles division by zero
-- Repeats until the user chooses to exit
-- User-friendly command-line interface
+- Add new tasks
+- View all tasks
+- Mark tasks as completed
+- Delete tasks
+- User-friendly menu
 
-## Technologies Used
-- Python 3
-- VS Code (or any Python IDE)
+## Requirements
+- Python 3.x
 
 ## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/calculator-cli.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd calculator-cli
-   ```
-3. Run the program:
-   ```bash
-   python calculator.py
-   ```
 
-## Sample Output
+1. Open a terminal.
+2. Navigate to the project folder.
+3. Run the program:
+
+```bash
+python todo.py
 ```
-===== Calculator =====
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
+
+## Project Structure
+
+```
+project/
+│── todo.py
+│── README.md
+```
+
+## Example
+
+```
+=== To-Do List ===
+1. Add Task
+2. View Tasks
+3. Mark Task Complete
+4. Delete Task
 5. Exit
-Enter your choice (1-5): 1
-Enter first number: 10
-Enter second number: 20
-Result: 30.0
+
+Enter your choice: 1
+Enter task: Complete Python assignment
+Task added successfully!
 ```
 
 ## Author
